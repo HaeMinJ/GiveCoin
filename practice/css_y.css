@@ -1,0 +1,61 @@
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation {
+    height: 10vh;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+
+  .item {
+    margin: 2vh;
+  }
+
+  .view_sponsor {
+    font-family: "Slackey";
+    font-size: 3.3vh;
+    letter-spacing: -2%;
+  }
+
+  .search_box {
+    background-color: #F2F2F2;
+    height: 6vh;
+    width: 65vh;
+    flex-wrap: nowrap;
+    display: flex;
+  }
+
+  .search_text {
+    font-family: "nunito";
+    font-size: 3.5vh;
+    color: #ACACAC;
+    padding-left: 5vh;
+    padding-top: 0.8vh;
+  }
+
+  .vertical-line {
+     width: 0.2vh;
+     background-color: #ACACAC;
+     height: 4.2vh;
+     margin-top: 1vh;
+     margin-left: 40vh;
+     margin-right: 2vh;
+     }
+
+  .search_button {
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+
+  .alarm {
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+  }
