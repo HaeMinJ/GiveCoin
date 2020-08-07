@@ -1,20 +1,19 @@
 body {
   margin: 0;
 }
+
 a {
   text-decoration: none;
 }
-.container {
+
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navigation {
   height: 9vh;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding: 0 8vh;
+  padding: 0 40vh;
 }
 
 .givecoin_logo {
@@ -29,7 +28,7 @@ a {
 }
 
 .search_box {
-  display: flexbox;
+  display: flex;
   background-color: #f2f2f2;
   height: 5.5vh;
   width: 60vh;
