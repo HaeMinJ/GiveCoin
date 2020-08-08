@@ -1,0 +1,89 @@
+body {
+  background-color: #e5e5e5;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 30px 15vw;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 179px;
+  height: 277px;
+  background-color: white;
+  padding: 20px 0;
+  margin: 0 30px;
+  box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.profileName {
+  font-size: 18px;
+}
+.profileLine {
+  width: 140px;
+  height: 2px;
+  background-color: #9d9d9d;
+}
+.profileImage {
+  width: 140px;
+  height: 140px;
+}
+.profileNickname {
+  font-size: 20px;
+}
+.main {
+  width: 900px;
+  height: 1032px;
+  background-color: white;
+  box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
+  padding: 30px 0 0 20px;
+}
+.mainNickname {
+  font-size: 35px;
+}
+.mypageList {
+  padding: 20px 0px 100px 10px;
+  margin: 0 25px 0 0;
+  font-size: 20px;
+  border-bottom: 2px #dfdfdf solid;
+}
+.bigBox {
+  width: 500px;
+  height: 30px;
+  border-bottom: #858585 solid 1px;
+  vertical-align: bottom;
+  margin: 20px 0 0 0;
+}
+.smallBox {
+  width: 400px;
+  height: 30px;
+  border-bottom: #858585 solid 1px;
+  margin: 3px 0;
+  vertical-align: bottom;
+  margin: 20px 0 0 0;
+}
+.donationList {
+  border-bottom: 2px #dfdfdf solid;
+  margin: 0 25px 0 0;
+}
+.myDonation {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.projectlist {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.project {
+  width: 240px;
+  height: 300px;
+}
+.projectlist .button {
+  position: relative;
+  bottom: 40px;
+}

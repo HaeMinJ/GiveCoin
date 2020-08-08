@@ -1,5 +1,7 @@
 * {
   font-family: "Leelawadee UI";
+  box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -60,9 +62,9 @@ a {
 }
 
 .search_button {
-  height: 40px;
-  width: 40px;
-  padding: 0 15px;
+  height: 38px;
+  width: 75px;
+  padding: 0 20px;
 }
 .logo {
   display: flex;
