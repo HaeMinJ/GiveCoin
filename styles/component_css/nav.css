@@ -20,6 +20,7 @@ a {
   flex-wrap: nowrap;
   flex-direction: row;
   padding: 0 15vw;
+  margin: 1vh 0 0 0;
   background-color: white;
 }
 
@@ -28,9 +29,10 @@ a {
 }
 
 .view_sponsor {
-  font-size: 25px;
+  font-size: 20px;
   min-width: 173px;
   color: black;
+  font-weight: bold;
 }
 
 .search_box {
@@ -50,10 +52,10 @@ a {
   font-size: 30px;
   color: #b4b4b4;
 }
-.button {
+.SearchButton {
   display: flex;
   flex-wrap: nowrap;
-  padding: 8px 0 0 0;
+  margin: 6px 0 0 0;
 }
 .vertical_line {
   width: 2px;
@@ -71,11 +73,11 @@ a {
   flex-wrap: nowrap;
 }
 .alarm_button {
-  height: 45px;
+  height: 38px;
   padding: 0 15px;
 }
 
 .mypage_logo {
-  height: 45px;
+  height: 38px;
   padding: 0 15px;
 }
