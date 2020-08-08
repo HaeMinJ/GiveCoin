@@ -1,3 +1,7 @@
+* {
+  font-family: "Leelawadee UI";
+}
+
 body {
   margin: 0;
 }
@@ -15,6 +19,7 @@ a {
   flex-direction: row;
   padding: 0 20vh;
   padding: 0 30vh;
+  background-color: white;
 }
 
 .givecoin_logo {
@@ -22,7 +27,6 @@ a {
 }
 
 .view_sponsor {
-  font-family: "Leelawadee UI";
   font-size: 2.8vh;
   min-width: 173px;
   color: black;
