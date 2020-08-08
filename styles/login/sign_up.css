@@ -1,0 +1,50 @@
+.sign_up_box {
+  height: 120vh;
+  margin-top: 2vh;
+  padding: 8vh 20vw 8vh 5vh;
+  text-align: right;
+}
+
+.purpose_box {
+  height: 25vh;
+  width: 14vw;
+  box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+  display: inline-block;
+  text-align: center;
+  padding: 0.5vh 0;
+  margin: 0 0.5vw;
+}
+
+.purpose_text {
+  color: #414141;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.user_type {
+  color: #414141;
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  border-bottom: solid 1px #B4B4B4;
+  margin: 0 10px;
+  padding:0 0 5px 0;
+}
+
+.sub_purpose {
+  font-size: 9.2px;
+  color: #757575;
+}
+
+.user_type_img {
+  width: 5vw;
+  margin: 1.5vh 0;
+}
+
+.sign_up_input_box {
+  border: 1px solid #9E9E9E;
+  padding: 0.1vh 1vw;
+  width: 25vw;
+  height: 6vh;
+  margin-left: 1vw;
+}
