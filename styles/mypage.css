@@ -83,7 +83,22 @@ section {
   width: 240px;
   height: 300px;
 }
-.projectlist .button {
+.projectlist .Imgbutton {
   position: relative;
   bottom: 40px;
+}
+.button {
+  background-color: #414141;
+  height: 35px;
+  width: 80px;
+  margin: 10px;
+  padding: 0 0 0 100px;
+  color: white;
+  box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
+}
+.modify {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin: 0 20px 0 0;
 }
