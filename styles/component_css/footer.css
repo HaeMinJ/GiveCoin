@@ -1,0 +1,63 @@
+* {
+    font-family: "Leelawadee UI";
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+body {
+    margin: 0;
+}
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+
+
+
+.footerBox {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerLine {
+    color: #414141;
+    width: 100vw;
+}
+.footerMenus {
+    display: flex;
+    padding: 0 15vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+.footerMenuItem {
+    font-family: "Yu Gothic UI";
+    font-size: 1em;
+}
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 15vw;
+    margin: 3vh 0;
+}
+.GivecoinInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.GivecoinLogoBlue {
+    width: 7vw;
+}
+
+.GivecoinCustomerService {
+    font-family: "Raleway";
+    font-size: 0.8em;
+    font-weight: bold;
+}
