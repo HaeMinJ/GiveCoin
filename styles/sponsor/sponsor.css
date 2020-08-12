@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F3F3F3;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 15vw;
+  }
+  
+  .sponsorTitle {
+      margin-bottom: 10vh;
+  }
+
+  .breadCrumb {
+      font-size: 0.7em;
+      padding-top: 5vh;
+  }
+
+  .breadCrumbLine {
+      color: #767676;
+      width: 70vw;
+  }
+
+  .box {
+    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    padding: 3vh 10vw;
+    text-align: left;
+    width: 70vw;
+    background-color: white;
+  }
+  
+  .items {
+    margin-bottom: 2vh;
+  }
+
+  .coinHad {
+      margin-left: 7vw;
+  }
+
+  .coinToDonate {
+      margin-left: 5.4vw;
+  }
+  
+  .sponsor_box {
+    height: 80vh;
+    margin-top: 0.5vh;
+    margin-bottom: 20vh;
+    padding: 8vh 10vw;
+  }
+  
+  .sponsor_input_box {
+    border: 1px solid #9E9E9E;
+    background-color: white;
+    padding: 0.1vh 1vw;
+    width: 25vw;
+    height: 6vh;
+    margin-left: 1vw;
+  }
+  
+  .span_title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #464646;
+  }
+  
+  .span_sub_title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #727272;
+  }
+  
+  .sponsor_button {
+    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    background-color: #F5D216;
+    color: #414141;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    width: 25vw;
+    height: 7vh;
+    padding-top: 1vh;
+    margin-top: 7vh;
+    margin-left: 13.5vw;
+  }
+  
+  .line {
+    display: inline-block;
+    width: 0.2vh;
+    background-color: #b4b4b4;
+    height: 2vh;
+    margin: 0 2vh;
+  }
+
+  .chargeButton {
+      display: inline-block;
+      width: 6vw;
+      height: 6vh;
+      background-color: #414141;
+      color: white;
+      text-align: center;
+      padding: 1vh 0 0 0;
+      margin-left: 1vw;
+  }
+  
