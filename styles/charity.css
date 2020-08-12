@@ -1,0 +1,78 @@
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0 0 0;
+}
+section .navigation {
+  display: flex;
+  flex-direction: column;
+  width: 11vw;
+  height: 420px;
+  position: sticky;
+  margin: 53px 2vw 0 2vw;
+  top: 50px;
+}
+.navList {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: solid 1px #dbdbdb;
+}
+.navList div {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+.charityHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  width: 100%;
+  border-bottom: solid 1px #767676;
+}
+.charityTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 0 20px;
+}
+.charityHead .search {
+  margin: 0 5vw 0 auto;
+}
+.subNavigation {
+  padding: 0 2vw 0 0;
+}
+.charityContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10px 0 0 0;
+}
+.content {
+  width: 20vw;
+  margin: 0 auto 30px auto;
+}
+.contentImg {
+  width: 100%;
+  height: auto;
+}
+.contentTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+.contentNav {
+  font-size: 14px;
+  color: #707070;
+  font-weight: bold;
+}
+.advertiseImg {
+  width: 100%;
+  margin: 100px 0 0 0;
+}
