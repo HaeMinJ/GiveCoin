@@ -1,0 +1,44 @@
+.coinchargingBox {
+    height: 80vh;
+    margin-top: 7vh;
+    margin-bottom: 20vh;
+    padding: 8vh 10vw;
+  }
+
+  .chargingButton {
+    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    background-color: #F5D216;
+    color: #414141;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    width: 20vw;
+    height: 7vh;
+    padding-top: 1vh;
+    margin-top: 7vh;
+    margin-left: 16.2vw;
+  }
+
+  .chargingInputBox {
+    border: 1px solid #9E9E9E;
+    background-color: white;
+    padding: 0.1vh 1vw;
+    width: 20vw;
+    height: 6vh;
+    margin-left: 1vw;
+  }
+
+  .exchange {
+      font-weight: bold;
+      font-size: 0.9em;
+      color: #414141;
+      margin-left: 16.4vw;
+  }
+
+  .coinHad {
+    margin-left: 10vw;
+}
+
+.coinToCharge {
+    margin-left: 8.4vw;
+}
