@@ -1,40 +1,43 @@
 .registerBox {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  flex-wrap: nowrap;
+  justify-content: space-between;
   width: 100%;
+  min-height: 700px;
   background-color: white;
-  height: 700px;
   box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
-  padding: 5% 15vh 0 5%;
+  padding: 5%;
 }
 .registerTitle {
-  margin: 0 auto 3% 0;
   font-size: 40px;
   font-weight: bold;
+  margin: 0 0 5% 0;
 }
-.registerSub {
-  display: flex;
-  font-size: 30px;
-  flex-wrap: nowrap;
-  margin: 1% 0;
-  font-weight: bold;
+table.contentBox {
+  border-collapse: collapse;
+  width: 100%;
 }
-.sub {
-  min-width: 189px;
-  text-align: end;
+th {
+  font-size: 23px;
+  text-align: left;
+  padding: 10px;
+  border-bottom: solid black 1px;
 }
-input {
-  width: 40vw;
-  height: 40px;
-  margin-left: 1vw;
+td {
+  padding: 10px;
 }
-.contentText {
-  height: 80px;
+.buttonTable {
+  text-align: center;
+}
+.contentBox .Button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #727272;
+  color: white;
 }
 .registerButton {
-  margin: auto 0;
+  margin: auto 0 0 0;
+  text-align: end;
 }
 .cancle {
   width: 90px;
