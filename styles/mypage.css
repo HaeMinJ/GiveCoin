@@ -52,6 +52,9 @@ section {
   font-weight: bold;
 }
 .mypageList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   padding: 20px 0px 80px 10px;
   margin: 0 25px 0 0;
   font-size: 20px;
@@ -60,6 +63,7 @@ section {
 .bigBox {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   width: 500px;
   height: 30px;
   border-bottom: #858585 solid 1px;
@@ -148,4 +152,14 @@ section {
   padding: 8px 0;
   position: relative;
   bottom: 10px;
+}
+.inputText {
+  width: 60%;
+  margin: 0 auto 0 0;
+}
+.inputText input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: transparent;
 }
