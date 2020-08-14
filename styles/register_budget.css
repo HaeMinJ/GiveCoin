@@ -5,7 +5,6 @@
   flex-wrap: nowrap;
   width: 100%;
   background-color: white;
-  height: 700px;
   box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
   padding: 5% 15vh 0 5%;
 }
@@ -20,21 +19,26 @@
   flex-wrap: nowrap;
   margin: 1% 0;
   font-weight: bold;
+  width: 100%;
 }
 .sub {
   min-width: 189px;
   text-align: end;
 }
 input {
-  width: 40vw;
+  width: 100%;
   height: 40px;
   margin-left: 1vw;
+}
+textarea {
+  margin: 0 0 0 1vw;
+  width: 100%;
 }
 .contentText {
   height: 80px;
 }
 .registerButton {
-  margin: auto 0;
+  margin: 100px 0;
 }
 .cancle {
   width: 90px;
