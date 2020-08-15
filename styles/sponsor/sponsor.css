@@ -12,49 +12,46 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 0 15vw;
+    padding: 0 76px;
   }
-  
-  .sponsorTitle {
-      margin-bottom: 10vh;
+.breadCrumb {
+  font-size: 0.7em;
+  padding-top: 40px;
+}
+
+.breadCrumbLine {
+  color: #767676;
+  width: 1120px;
+}
+.sponsorTitle {
+    margin-bottom: 10px;
+}
+.box {
+  box-shadow: 0 0.4px 0.4px rgba(0,0,0,0.25);
+  padding: 3px 10px;
+  text-align: left;
+  width: 1120px;
+  background-color: white;
   }
 
-  .breadCrumb {
-      font-size: 0.7em;
-      padding-top: 5vh;
-  }
+.sponsor_box {
+  height: 600px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  padding: 120px 70px;
+}
+.items {
+  margin-bottom: 2vh;
+}
 
-  .breadCrumbLine {
-      color: #767676;
-      width: 70vw;
-  }
+.coinHad {
+  margin-left: 7vw;
+}
 
-  .box {
-    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
-    padding: 3vh 10vw;
-    text-align: left;
-    width: 70vw;
-    background-color: white;
-  }
-  
-  .items {
-    margin-bottom: 2vh;
-  }
+.coinToDonate {
+  margin-left: 5.4vw;
+}
 
-  .coinHad {
-      margin-left: 7vw;
-  }
-
-  .coinToDonate {
-      margin-left: 5.4vw;
-  }
-  
-  .sponsor_box {
-    height: 80vh;
-    margin-top: 0.5vh;
-    margin-bottom: 20vh;
-    padding: 8vh 10vw;
-  }
   
   .sponsor_input_box {
     border: 1px solid #9E9E9E;
