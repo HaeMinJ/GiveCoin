@@ -103,3 +103,94 @@
     font-size: 0.7em;
     text-align: left;
 }
+
+.advertising-banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.advertising-box {
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+    padding: 70px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.advertising-box__1 {
+    background-image: url("/images/addvertising-box-1.svg");
+}
+
+.advertising-box__2 {
+    background-image: url("/images/advertising-box-2.svg");
+}
+
+.advertising-sub-title {
+    font-size: 0.5em;
+}
+
+.givecoin-story-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.givecoint-story-text {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 50px 50px 50px 150px;
+}
+
+.coin-color {
+    color: #F5D216;
+}
+
+.blue-color {
+    color: #30558A;
+}
+
+.announcement{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.announcement-button {
+    width: 50px;
+    height: 25px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 20px;
+}
+
+.announcement-box {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 10px 40px;
+}
+
+.advertising-box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 0 50px 0;
+}
+
+.advertising-1 {
+    background-image: url("/images/advertising-1.svg");
+    width: 500px;
+    height: 100px;
+}
+
+.advertising-2 {
+    background-image: url("/images/advertising-2.svg");
+    width: 450px;
+}
