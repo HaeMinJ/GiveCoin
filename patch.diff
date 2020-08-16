@@ -1,0 +1,520 @@
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+index 4c6d6f1..f3d30ea 100644
+--- a/.idea/workspace.xml
++++ b/.idea/workspace.xml
+@@ -1,7 +1,16 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="7fde95fe-edfb-49a1-9e86-580289154db5" name="Default Changelist" comment="" />
++    <list default="true" id="7fde95fe-edfb-49a1-9e86-580289154db5" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/html/component_html/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/component_html/nav.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/html/my_page/my_project_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/my_page/my_project_edit.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/html/sponsor/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/sponsor.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/html/sponsor/sponsored.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/sponsored.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/styles/component_css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/component_css/nav.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/styles/sponsor/sponsor.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sponsor/sponsor.css" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -20,6 +29,12 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+   </component>
+   <component name="SvnConfiguration">
+     <configuration />
+@@ -33,10 +48,20 @@
+       <updated>1597237371079</updated>
+       <workItem from="1597237377014" duration="139000" />
+       <workItem from="1597237591445" duration="318000" />
++      <workItem from="1597469324289" duration="9403000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="2" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="0" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597475806874">
++      <screen x="0" y="0" width="1536" height="824" />
++    </state>
++    <state x="0" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597475806874" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/html/component_html/nav.html b/html/component_html/nav.html
+index 5d44306..1e5484f 100644
+--- a/html/component_html/nav.html
++++ b/html/component_html/nav.html
+@@ -2,42 +2,43 @@
+ <html lang="ko" dir="ltr">
+   <head>
+     <meta charset="utf-8" />
+-    <title>index_y</title>
++    <title>index</title>
+     <link rel="stylesheet" href="../../styles/component_css/nav.css" />
+   </head>
+ 
+   <body>
+-    <div class="navigation">
+-      <a href="./index_y.html"
+-        ><img
+-          class="givecoin_logo"
+-          src="/images/givecoin_logo.svg"
+-          alt="givecoin_logo"
+-      /></a>
++  <header>
++      <div class="navigation">
++        <a href="../../index.html">
++        <img class="givecoin_logo"
++             src="../../images/givecoin_logo.svg"
++             alt="givecoin_logo"></a>
+ 
+-      <a href=""><div class="view_sponsor">후원단체보기</div></a>
+-      <div class="search_box">
++       <a href=""><div class="view_sponsor">후원단체보기</div></a>
++       <div class="search_box">
+         <input type="text" name="" value="search" class="search_input_box">
+         <div class="vertical_line"></div>
+         <a href="">
+-          <img class="SearchButton" src="/images/search_button.svg" alt="searchButton">
++          <img class="SearchButton" src="../../images/search_button.svg" alt="searchButton">
+         </a>
+-      </div>
+-     
++        </div>
++
+       <div class="logo">
+         <a href=""
+-          ><img
+-            class="alarm_button"
+-            src="/images/alarm_logo.svg"
+-            alt="alarm_logo"
++        ><img
++                class="alarm_button"
++                src="../../images/alarm_logo.svg"
++                alt="alarm_logo"
+         /></a>
+         <a href=""
+-          ><img
+-            class="mypage_logo"
+-            src="/images/mypage_logo.svg"
+-            alt="mypage_logo"
++        ><img
++                class="mypage_logo"
++                src="../../images/mypage_logo.svg"
++                alt="mypage_logo"
+         /></a>
+-      </img>
++        </img>
++      </div>
+     </div>
++  </header>
+   </body>
+ </html>
+diff --git a/html/my_page/my_project_edit.html b/html/my_page/my_project_edit.html
+index e69de29..c5d2a99 100644
+--- a/html/my_page/my_project_edit.html
++++ b/html/my_page/my_project_edit.html
+@@ -0,0 +1,49 @@
++<!DOCTYPE html>
++<html lang="ko">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>GiveCoin</title>
++    <link rel="stylesheet" href="../../styles/mypage.css" />
++    <link rel="stylesheet" href="../../styles/component_css/nav.css" />
++</head>
++<body>
++<header>
++    <div class="navigation">
++        <a href="./index_y.html">
++            <img class="givecoin_logo" src="/images/givecoin_logo.svg" alt="givecoin_logo"></a>
++        <a href=""><div class="view_sponsor">후원단체보기</div></a>
++
++        <div class="search_box">
++            <div class="search_text">search</div>
++            <div class="searchButton">
++                <div class="vertical_line"></div>
++                <img class="search_button" src="/images/search_button.svg" alt="search_button">
++            </div>
++        </div>
++        <div class="logo">
++            <a href=""><img class="alarm_button" src="/images/alarm_logo.svg" alt="alarm_logo"></a>
++            <a href=""><img class="mypage_logo" src="/images/mypage_logo.svg" alt="mypage_logo"></a>
++        </div>
++    </div>
++</header>
++<section>
++    <div class="projectAdd">
++        <div class="project_add">프로젝트추가</div>
++        <div class="project_content">
++            <div class="projectName"><div class="project_name">프로젝트 이름 <div class="project_name_input"><input type="text" name="project_name" size=20></div></div></div>
++            <div class="projectType"><div class="project_type">프로젝트 종류 <div class="project_type_input"><input type="text" name="project_name" size=20></div></div></div>
++            <div class="charityIntro"><div class="charity_intro">후원단체 소개 <div class="charity_intro_input"><textarea name="charity_intro" id="charity_intro" cols="50" rows="30"></textarea></div></div></div>
++            <div class="projectIntro"><div class="project_intro">프로젝트 소개 <div class="project_intro_input"><textarea name="project_intro" id="project_intro" cols="50" rows="80"></textarea></div></div></div>
++            <div class="representPicture"><div class="represent_picture">대표 사진 <div class="represent_picture"><img src="" alt="대표 사진"><input type="text" name="project_name" size=20></div></div> </div>
++        </div>
++        <div class="findFile"><button name="fine_file">파일 찾기</button></div>
++        <div class="modify">
++            <button class="cancel_button">취소
++                <button class="modify_button">수정</button>
++        </div>
++    </div>
++    </div>
++</section>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/html/sponsor/sponsor.html b/html/sponsor/sponsor.html
+index 90c082d..8b3b01b 100644
+--- a/html/sponsor/sponsor.html
++++ b/html/sponsor/sponsor.html
+@@ -3,44 +3,45 @@
+   <head>
+     <meta charset="utf-8">
+     <title>sponsor</title>
+-    <link rel="stylesheet" href="/styles/login/login.css">
+-    <link rel="stylesheet" href="../../styles/component_css/nav.css" />
+-    <link rel="stylesheet" href="/styles/sponsor/sponsor.css">
++    <link rel="stylesheet" href="../../styles/login/login.css">
++    <link rel="stylesheet" href="../../styles/component_css/nav.css">
++    <link rel="stylesheet" href="../../styles/sponsor/sponsor.css">
+   </head>
+   <body>
+-    <div class="navigation">
+-      <a href="./index_y.html"
+-        ><img
+-          class="givecoin_logo"
+-          src="/images/givecoin_logo.svg"
+-          alt="givecoin_logo"
++    <header><div class="navigation">
++      <a href="../../index.html"
++      ><img
++              class="givecoin_logo"
++              src="../../images/givecoin_logo.svg"
++              alt="givecoin_logo"
+       /></a>
+ 
+-      <a href=""><div class="view_sponsor">후원단체보기</div></a>
++      <a href="../../charity.html"><div class="view_sponsor">후원단체보기</div></a>
+       <div class="search_box">
+         <input type="text" name="" value="search" class="search_input_box">
+         <div class="vertical_line"></div>
+         <a href="">
+-          <img class="SearchButton" src="/images/search_button.svg" alt="searchButton">
++          <img class="SearchButton" src="../../images/search_button.svg" alt="searchButton">
+         </a>
+       </div>
+-     
++
+       <div class="logo">
+         <a href=""
+-          ><img
+-            class="alarm_button"
+-            src="/images/alarm_logo.svg"
+-            alt="alarm_logo"
++        ><img
++                class="alarm_button"
++                src="../../images/alarm_logo.svg"
++                alt="alarm_logo"
+         /></a>
+         <a href=""
+-          ><img
+-            class="mypage_logo"
+-            src="/images/mypage_logo.svg"
+-            alt="mypage_logo"
++        ><img
++                class="mypage_logo"
++                src="../../images/mypage_logo.svg"
++                alt="mypage_logo"
+         /></a>
+-      </img>
++        </img>
++      </div>
+     </div>
+-  </div>
++    </header>
+ 
+     <div class="container">
+ 
+diff --git a/html/sponsor/sponsored.html b/html/sponsor/sponsored.html
+index 6b05d26..3c2d7d5 100644
+--- a/html/sponsor/sponsored.html
++++ b/html/sponsor/sponsored.html
+@@ -3,10 +3,10 @@
+   <head>
+     <meta charset="utf-8">
+     <title>sponsored</title>
+-    <link rel="stylesheet" href="/styles/login/login.css">
++    <link rel="stylesheet" href="../../styles/login/login.css">
+     <link rel="stylesheet" href="../../styles/component_css/nav.css" />
+-    <link rel="stylesheet" href="/styles/sponsor/sponsor.css">
+-    <link rel="stylesheet" href="/styles/sponsor/sponsored.css">
++    <link rel="stylesheet" href="../../styles/sponsor/sponsor.css">
++    <link rel="stylesheet" href="../../styles/sponsor/sponsored.css">
+   </head>
+   <body>
+     <div class="navigation">
+@@ -22,7 +22,7 @@
+         <input type="text" name="" value="search" class="search_input_box">
+         <div class="vertical_line"></div>
+         <a href="">
+-          <img class="SearchButton" src="/images/search_button.svg" alt="searchButton">
++          <img class="SearchButton" src="../../images/search_button.svg" alt="searchButton">
+         </a>
+       </div>
+      
+@@ -30,13 +30,13 @@
+         <a href=""
+           ><img
+             class="alarm_button"
+-            src="/images/alarm_logo.svg"
++            src="../../images/alarm_logo.svg"
+             alt="alarm_logo"
+         /></a>
+         <a href=""
+           ><img
+             class="mypage_logo"
+-            src="/images/mypage_logo.svg"
++            src="../../images/mypage_logo.svg"
+             alt="mypage_logo"
+         /></a>
+       </img>
+diff --git a/index.html b/index.html
+index 75d8983..5f7e180 100644
+--- a/index.html
++++ b/index.html
+@@ -4,15 +4,14 @@
+     <meta charset="utf-8" />
+     <title>index</title>
+     <link rel="stylesheet" href="../../styles/component_css/nav.css" />
+-    <link rel="stylesheet" href="/styles/index/index.css">
++    <link rel="stylesheet" href="../../styles/index/index.css">
+   </head>
+-
+   <body>
+     <div class="navigation">
+       <a href="./index_y.html"
+         ><img
+           class="givecoin_logo"
+-          src="/images/givecoin_logo.svg"
++          src="../../images/givecoin_logo.svg"
+           alt="givecoin_logo"
+       /></a>
+ 
+diff --git a/styles/component_css/nav.css b/styles/component_css/nav.css
+index d15a2dd..91018f8 100644
+--- a/styles/component_css/nav.css
++++ b/styles/component_css/nav.css
+@@ -11,30 +11,37 @@ body {
+ a {
+   text-decoration: none;
+ }
+-
+-header .navigation {
++header{
++  background-color: white;
++}
++.navigation{
+   display: flex;
+-  justify-content: space-between;
++  flex-direction: row;
++  justify-content: space-around;
+   align-items: center;
+-  height: 10vh;
+   flex-wrap: nowrap;
+-  flex-direction: row;
+-  padding: 0 15vw;
+-  background-color: white;
++  padding: 0 50px;
++  margin : 0 100px;
+ }
+-
+ .givecoin_logo {
+   height: 33px;
++  margin-left: 80px;
+ }
+-
+ .view_sponsor {
+   font-size: 1.3em;
+   min-width: 173px;
+   color: black;
+   font-weight: bold;
+   margin-top: 10px;
++  margin-left: 15px;
++}
++.search_box {
++  display: flex;
++  flex-direction: row;
++  flex-wrap: nowrap;
++  position: relative;
++  margin : 1px 5px;
+ }
+-
+ .search_input_box {
+   display: flex;
+   background-color: #f2f2f2;
+@@ -42,53 +49,46 @@ header .navigation {
+   flex-direction: row;
+   justify-content: space-between;
+   border-radius: 2px;
+-  padding: 0.5vh 1vw;
+-  font-family: "nunito";
++  padding: 10px 20px;
+   border: none;
+-  width: 30vw;
+-  height: 7vh;
++  width: 414px;
++  height: 40px;
+ }
+ 
+-.search_box {
+-  display: flex;
+-  flex-direction: row;
+-  flex-wrap: nowrap;
+-  position: relative;
++.vertical_line {
++  width: 1px;
++  background-color: #b4b4b4;
++  height: 35px;
++  position: absolute;
++  right: 60px;
++  top: 2px;
+ }
+-
+ .SearchButton {
+   display: flex;
+   flex-wrap: nowrap;
+   position: absolute;
+-  right: 1vw;
+-  top: 1.8vh;
+-  height: 4vh;
+-}
+-.vertical_line {
+-  width: 0.1vw;
+-  background-color: #b4b4b4;
+-  height: 5vh;
+-  position: absolute;
+-  right: 4.4vw;
+-  top: 1.5vh;
++  right: 10px;
++  top: 5px;
++  height: 30px;
+ }
+ 
+ .search_button {
+-  height: 38px;
+-  width: 75px;
++  height: 20px;
++  width: 40px;
+   padding: 0 20px;
+ }
+ .logo {
+   display: flex;
+   flex-wrap: nowrap;
++  justify-content: flex-end;
+   margin-top: 10px;
++  margin-right: 80px;
+ }
+ .alarm_button {
+-  width: 2.5vw;
+-  margin: 2vh 1.5vw 0 0;
++  width: 29px;
++  margin-right: 20px;
+ }
+-
+ .mypage_logo {
+-  width: 3vw;
+-  margin: 2vh 0 1vw 0;
++  width: 29px;
++  margin-left : 20px;
+ }
+diff --git a/styles/sponsor/sponsor.css b/styles/sponsor/sponsor.css
+index dfada28..fda8236 100644
+--- a/styles/sponsor/sponsor.css
++++ b/styles/sponsor/sponsor.css
+@@ -12,42 +12,39 @@
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: column;
+-    padding: 0 15vw;
+-  }
+-  
+-  .sponsorTitle {
+-      margin-bottom: 10vh;
+-  }
+-
+-  .breadCrumb {
+-      font-size: 0.7em;
+-      padding-top: 5vh;
++    padding: 0 76px;
+   }
++.breadCrumb {
++  font-size: 0.7em;
++  padding-top: 40px;
++}
+ 
+-  .breadCrumbLine {
+-      color: #767676;
+-      width: 70vw;
+-  }
+-
+-  .box {
+-    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+-    padding: 3vh 10vw;
+-    text-align: left;
+-    width: 70vw;
+-    background-color: white;
++.breadCrumbLine {
++  color: #767676;
++  width: 1400px;
++}
++.sponsorTitle {
++    margin-bottom: 10%;
++}
++.box {
++  box-shadow: 0 0.4px 0.4px rgba(0,0,0,0.25);
++  padding: 3px 10px;
++  text-align: left;
++  width: 1194px;
++  background-color: white;
+   }
+   
+-  .items {
+-    margin-bottom: 2vh;
+-  }
++.items {
++  margin-bottom: 2vh;
++}
+ 
+-  .coinHad {
+-      margin-left: 7vw;
+-  }
++.coinHad {
++  margin-left: 7vw;
++}
+ 
+-  .coinToDonate {
+-      margin-left: 5.4vw;
+-  }
++.coinToDonate {
++  margin-left: 5.4vw;
++}
+   
+   .sponsor_box {
+     height: 80vh;

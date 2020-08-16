@@ -1,9 +1,9 @@
 .completionMsg {
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 3em;
     color: #464646;
-    text-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
-    margin: 2vh 0;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.25);
+    margin: 10px 0;
 }
 
 .donatedCoin {
@@ -13,8 +13,10 @@
 
 .remainingCoin {
     color: #757575;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: bold;
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
 
 .completionMsgBox {
@@ -22,15 +24,15 @@
 }
 
 .sponsoredButton {
-    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    box-shadow: 0 0.4px 0.4px rgba(0,0,0,0.25);
     background-color: #F5D216;
     color: #414141;
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
-    width: 25vw;
-    height: 7vh;
-    padding-top: 1vh;
-    margin-top: 7vh;
-    margin-left: 12.5vw;
+    width: 360px;
+    height: 48px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 280px;
   }
