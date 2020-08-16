@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fde95fe-edfb-49a1-9e86-580289154db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/my_project_edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/sponsor/sponsored_project_explanation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/my_page/my_project_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/my_page/my_project_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/my_page/my_project_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/my_page/my_project_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/charity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sponsor/sponsored_project_explanation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/sponsored_project_explanation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/sponsored_project_explanation.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <workItem from="1597237377014" duration="139000" />
       <workItem from="1597237591445" duration="318000" />
       <workItem from="1597469324289" duration="11942000" />
-      <workItem from="1597559179113" duration="15480000" />
+      <workItem from="1597559179113" duration="21922000" />
     </task>
     <servers />
   </component>
