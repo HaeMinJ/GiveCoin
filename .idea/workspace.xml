@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7fde95fe-edfb-49a1-9e86-580289154db5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/my_page/my_page_charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/my_page/my_page_charity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/my_page/my_project_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/my_page/my_project_add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/sponsor/coin_charging.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/coin_charging.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sponsor/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/sponsor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sponsor/sponsored.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sponsor/sponsored.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/component_css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/component_css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/sponsor/sponsor.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sponsor/sponsor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/sponsor/sponsored.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sponsor/sponsored.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Rectangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Rectangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/my_project_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/my_project_add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/sponsor/coin_charging.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sponsor/coin_charging.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/sponsored_project_explanation.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +67,7 @@
       <workItem from="1597237377014" duration="139000" />
       <workItem from="1597237591445" duration="318000" />
       <workItem from="1597469324289" duration="11942000" />
-      <workItem from="1597559179113" duration="7010000" />
+      <workItem from="1597559179113" duration="15219000" />
     </task>
     <servers />
   </component>
@@ -56,6 +75,15 @@
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
