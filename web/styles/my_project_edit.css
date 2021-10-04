@@ -1,0 +1,109 @@
+section{
+    width : 1000px;
+    height : 1450px;
+    background-color: white;
+    margin: 50px 260px;
+}
+.project_add{
+    font-size : 29px;
+    font-weight: bold;
+    margin : 15px 20px;
+}
+.project_content{
+    font-weight: bold;
+    margin : 40px 200px;
+    display: flex;
+    flex-direction: column;
+    padding : 10px 20px;
+}
+.project_name{
+    display: flex;
+    flex-direction: row;
+}
+.projectName{
+    margin : 0 10px 20px 0;
+}
+.project_type{
+    display: flex;
+    flex-direction: row;
+}
+.projectType{
+    margin : 0 10px 20px 0;
+}
+.charity_intro{
+    display: flex;
+    flex-direction: row;
+}
+.charityIntro{
+    margin : 0 10px 20px 0;
+}
+.project_intro{
+    display: flex;
+    flex-direction: row;
+}
+.projectIntro{
+    margin : 0 10px 20px 0;
+}
+.represent_picture{
+    display: flex;
+    flex-direction: row;
+}
+.project_name_input{
+    padding : 0 20px;
+}
+.project_type_input{
+    padding : 0 20px;
+}
+.charity_intro_input{
+    padding : 0 20px;
+}
+.project_intro_input{
+    padding : 0 20px;
+}
+.represent_picture_input{
+    padding : 0 50px;
+}
+.findFile{
+    display: flex;
+    justify-content: flex-end;
+    margin-right : 270px;
+    margin-top: -30px;
+}
+.find_file{
+    width: 110px;
+    height : 40px;
+    background-color: #707070;
+    color: white;
+    border: unset;
+    padding: 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.modify{
+    display: flex;
+    justify-content: flex-end;
+    margin-right : 270px;
+    margin-top: 20px;
+}
+.cancle_button{
+    width : 80px;
+    height : 35px;
+    background-color: #AEAEAE;
+    color : white;
+    border : unset;
+    padding : 2px 0;
+    font-size : 15px;
+    font-weight : bold;
+    margin-right : 10px;
+}
+.edit_button{
+    width : 80px;
+    height : 35px;
+    background-color: #30558A;
+    color : white;
+    border : unset;
+    padding : 2px 0;
+    font-size : 15px;
+    font-weight : bold;
+    margin-left : 10px;
+}

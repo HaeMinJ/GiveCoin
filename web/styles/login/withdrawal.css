@@ -1,0 +1,51 @@
+.WithdrawalBox {
+    height: 85vh;
+    margin: 2vh 0 10vh 0;
+    padding: 10vh 20vw 8vh 5vh;
+    text-align: right;
+}
+
+.WithdrawalNotice {
+    font-size: 0.7em;
+    color : #414141;
+}
+
+.CoinNotice {
+    font-weight: bold;
+    color: #FF6534;
+    margin: 0 6.5vw 5vh 0;
+}
+
+.ReadingAndAgreeButton {
+    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    background-color: #414141;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    width: 23vw;
+    height: 7vh;
+    padding-top: 1.5vh;
+    margin: 8vh 0 13vh 24.5vw ;
+  }
+
+  .WithdrawalButton {
+    box-shadow: 0 0.4vh 0.4vh rgba(0,0,0,0.25);
+    background-color: #414141;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    width: 8vw;
+    height: 5.5vh;
+    padding-top: 1vh;
+    margin-left: 1vw;
+  }
+
+  .WithdrawalButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}

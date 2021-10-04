@@ -1,0 +1,94 @@
+* {
+  font-family: "Leelawadee UI";
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+header{
+  background-color: white;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0 50px;
+  margin : 0 100px;
+}
+.givecoin_logo {
+  height: 33px;
+  margin-left: 80px;
+}
+.view_sponsor {
+  font-size: 1.3em;
+  min-width: 173px;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.search_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  margin : 1px 5px;
+}
+.search_input_box {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2px;
+  padding: 10px 20px;
+  border: none;
+  width: 414px;
+  height: 40px;
+}
+
+.vertical_line {
+  width: 1px;
+  background-color: #b4b4b4;
+  height: 35px;
+  position: absolute;
+  right: 60px;
+  top: 2px;
+}
+.SearchButton {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  height: 30px;
+}
+
+.search_button {
+  height: 20px;
+  width: 40px;
+  padding: 0 20px;
+}
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.alarm_button {
+  width: 29px;
+  margin-right: 20px;
+}
+.mypage_logo {
+  width: 29px;
+  margin-left : 20px;
+}

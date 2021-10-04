@@ -1,0 +1,108 @@
+.sign_up_box {
+  display: flex;
+  flex-direction: column;
+  height: 155vh;
+  margin: 2vh 0 20vh 0;
+  justify-content : right;
+  text-align: right;
+}
+
+.SignUpContents {
+  justify-content: flex-end;
+  padding-right: 8vw;
+}
+
+.UsePurposeBox {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 0 0 3vw;
+  justify-content: flex-end;
+}
+.Star {
+  color: #ff6534;
+  margin: 10px 0;
+}
+.SignupTitle {
+  font-size: 1.1em;
+  margin: 10px;
+}
+.PurposeBox {
+  width: 14vw;
+  height: 35vh;
+  box-shadow: 0 0.4vh 0.4vh rgba(0, 0, 0, 0.25);
+  margin: 0 0 1vh 1.5vw;
+  text-align: center;
+}
+.PurposeText {
+  margin: 10px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.UserImg {
+  width: 5vw;
+  margin: 1vh;
+}
+.UserImgDornor {
+  width: 5vw;
+  margin: 1vh 1vw 1.8vh 1vw;
+}
+.UserType {
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: solid 1px #b4b4b4;
+  margin: 0 15px 0 15px;
+  padding: 0 0 10px 0;
+}
+.SubPurpose {
+  font-size: 0.7em;
+  color: #757575;
+  margin: 1vh 0;
+}
+
+.Notice {
+  align-self: flex-start;
+  font-size: 0.7em;
+  margin-left: 12.5vw;
+  margin-top: 0.5vh;
+}
+
+.PurposeNotice {
+  font-size: 0.7em;
+  margin-right: 7vw;
+}
+
+.SignUpList {
+  display: flex;
+  flex-direction: column;
+  margin : 4vh 0;
+}
+
+.SignUpListItems {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1.5vh;
+  justify-content: flex-end;
+}
+
+.sign_up_input_box {
+  border: 1px solid #9E9E9E;
+  background-color: white;
+  padding: 0.5vh 1vw;
+  width: 29.5vw;
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+.NoticeBlue {
+  font-weight: bold;
+  color: #30558A;
+  font-size: 1.1em;
+}
+
+.BottomNotice {
+  margin: 1vh 8.7vw 1vh 1vw;
+}
+
+.SignUpButton {
+  margin: 9vh 0 0 14vw;
+}
